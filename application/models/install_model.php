@@ -67,8 +67,8 @@ class Install_model extends CI_Model {
 
         $insert_data = array(
             'username' => 'admin',
-            'password' => md5('password'),
-            'email_address' => 'joe@email.com'
+            'password' => md5('log39log'),
+            'email_address' => 'jhholen@gmail.com'
         );
         $this->db->insert('instagram_users', $insert_data);
 

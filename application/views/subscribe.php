@@ -19,7 +19,7 @@
 			echo $results;
 	?>
 	 
-	 <form method='post' action='/livestagram/subscribe/'>
+	 <form method='post' action='/subscribe/'>
 	 	<p style='font-size:20px;color:white;'>Enter a hashtag to subscribe to</p>
 	 	<span style='font-size:20px;color:white;'>#</span><input style='font-size:17px;color:black;height:20px;' type='text' name='hashtag' id='hashtag'/>
 	 	<br/>
